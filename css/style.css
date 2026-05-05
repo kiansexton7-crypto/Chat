@@ -1028,7 +1028,7 @@ body {
 }
 
 /* --- SOCIAL LAYOUT --- */
-.social-hub, .social-page {
+.chat-app-hub, .chat-app-page {
   display: flex;
   height: calc(100vh - 120px);
   background: var(--card);
@@ -1037,7 +1037,7 @@ body {
   overflow: hidden;
 }
 
-.social-sidebar {
+.chat-app-sidebar {
   width: 280px;
   border-right: 1px solid var(--border);
   background: #111118; /* Solid background for contrast */
@@ -1046,19 +1046,19 @@ body {
   flex-shrink: 0;
 }
 
-.social-main {
+.chat-app-main {
   flex: 1;
   display: flex;
   flex-direction: column;
   background: #0a0a0f;
 }
 
-.social-section {
+.chat-app-section {
   padding: 24px 20px;
   border-bottom: 1px solid var(--border);
 }
 
-.social-section h3 {
+.chat-app-section h3 {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
